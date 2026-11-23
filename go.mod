@@ -1,15 +1,17 @@
 module github.com/maintell/webBenchmark
 
-go 1.21
+go 1.25.0
 
 require (
 	github.com/EDDYCJY/fake-useragent v0.2.0
 	github.com/apoorvam/goterminal v0.0.0-20180523175556-614d345c47e5
 	github.com/gorilla/websocket v1.5.3
+	github.com/lionsoul2014/ip2region/binding/golang v0.0.0-20261109085535-d003e9ea1cbc
 	github.com/miekg/dns v1.1.43
 	github.com/quic-go/quic-go v0.42.0
 	github.com/shirou/gopsutil v3.21.4+incompatible
 	golang.org/x/crypto v0.14.0
+	golang.org/x/sys v0.21.0
 	golang.org/x/term v0.21.0
 )
 
@@ -30,7 +32,6 @@ require (
 	golang.org/x/mod v0.25.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sync v0.22.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
 )

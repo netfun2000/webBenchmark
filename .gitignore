@@ -13,3 +13,6 @@ webBenchmark_bsd_x64.exe
 # distributed mode state (CA keys, node registry, task history, audit log)
 webBenchmark-master/
 webBenchmark-agent/
+
+# IP2Region databases
+data/ip2region/*.xdb
